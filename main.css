@@ -12,3 +12,24 @@
 .photo img {
   width: 100%;
 }
+/*-------Aside----------*/
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 60%;
+  margin: auto auto;
+}
+aside img {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  border-radius: 25px;
+}
