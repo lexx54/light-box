@@ -32,7 +32,25 @@ aside {
 }
 aside img {
   position: absolute;
-  width: 60%;
-  height: 60%;
+  width: 90%;
+  height: 70%;
   border-radius: 25px;
+}
+
+@media screen and (min-width: 720px) {
+  aside img {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    border-radius: 25px;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  aside img {
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    border-radius: 25px;
+  }
 }
