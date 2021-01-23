@@ -26,6 +26,9 @@ aside {
   width: 100%;
   height: 60%;
   margin: auto auto;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 1s ease;
 }
 aside img {
   position: absolute;
