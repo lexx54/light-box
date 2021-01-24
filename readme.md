@@ -1,7 +1,7 @@
 <h1 align="center">Lightbox Example<h1>
 <hr>
   
-Done by [@lexx54](htpps://www.github.com/lexx54)
+<h2 align="center">Done by <a href="htpps://www.github.com/lexx54">@lexx54</a></h2>
 
 ### Stack use
 
