@@ -5,9 +5,9 @@
 
 ### Stack use
 
-+HTML
-+CSS 
-+[Jquery](https://jquery.com)
++ HTML
++ CSS 
++ [Jquery](https://jquery.com)
 
 
 ### Info
