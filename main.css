@@ -46,6 +46,32 @@ aside img {
   height: 70%;
   border-radius: 25px;
 }
+.x {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+  top: 1.5vh;
+  right: 7vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.x1 {
+  width: 5px;
+  height: 30px;
+  background-color: white;
+  transform-origin: 60% 60%;
+  transform: rotate(45deg);
+}
+.x2 {
+  width: 5px;
+  height: 30px;
+  background-color: white;
+  transform-origin: 60% 60%;
+  transform: rotate(-45deg);
+}
 
 @media screen and (min-width: 720px) {
   aside img {
