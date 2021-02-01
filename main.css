@@ -5,6 +5,13 @@ body {
   background-color: silver;
 }
 /*------------------------------------Main---------------------------------------------*/
+.title {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+.row img {
+  margin-top: 1rem;
+}
 /* section {
 }
 section h1 {
@@ -12,10 +19,8 @@ section h1 {
   text-align: center;
   margin: 5rem 0 2rem;
 }
-*/
 /*-------carrousel----------*/
-/*
-.carrousel {
+/*.carrousel {
   display: flex;
 }
 .photo {
@@ -23,8 +28,7 @@ section h1 {
 }
 .photo img {
   width: 100%;
-}
-*/
+} */
 /*-------Aside----------*/
 aside {
   display: flex;
@@ -38,7 +42,7 @@ aside {
   right: 0;
   width: 100%;
   height: 60%;
-  margin: auto auto;
+  margin: auto;
   opacity: 0;
   z-index: -1;
   transition: opacity 1s ease;
@@ -75,7 +79,14 @@ aside img {
   transform-origin: 60% 60%;
   transform: rotate(-45deg);
 }
-
+.carrou-text {
+  position: absolute;
+  bottom: 5vh;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+}
 @media screen and (min-width: 720px) {
   aside img {
     position: absolute;
